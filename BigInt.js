@@ -56,7 +56,7 @@
 // For most functions, if it needs a BigInt as a local variable it will actually use
 // a global, and will only allocate to it only when it's not the right size.  This ensures
 // that when a function is called repeatedly with same-sized parameters, it only allocates
-// memory on the first call.
+// memory on the first call. 
 //
 // Note that for cryptographic purposes, the calls to Math.random() must 
 // be replaced with calls to a better pseudorandom number generator.
